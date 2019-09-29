@@ -7,16 +7,15 @@ const mainDivision = props => {
 
 	return(
 		<body>
-			<Card style={{ width: '355px', borderRadius:10}} id="cards">
+			<Card style={{ width: '340px', borderRadius:10}} className="cards">
+					<Card.Img variant="top" className="image" src={require('./bird_logo.png')} roundedCircle/>
 		  			<Card.Body>
-		    			<Card.Title id="card_title">
-		    				<img src={require('./bird_logo.png')} align="left"/>
-		    				<span>{props.Title}</span>
+		    			<Card.Title className="card_title">
+		    				<p>{props.Title}<br/>
+		    				<span style={{fontWeight:'normal'}}>{props.SubTitle}</span><span style={{fontWeight:'normal'}}>&nbsp;&#8377;{props.Number}</span></p>
 		    			</Card.Title>
-		    			<Card.Subtitle id="card_subtitle">
-		    				{props.SubTitle}<span>&nbsp;&#8377;{props.Number}</span>
-		    			</Card.Subtitle>
-			    		<Card.Text id="card_text">
+		    		
+			    		<Card.Text className="card_text">
 			     	 		{props.Text}
 			    		</Card.Text>
 		    			<button className="button2" style={{color:'#20B2AA'}}> {props.Button} </button>

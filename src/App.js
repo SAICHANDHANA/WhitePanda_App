@@ -3,6 +3,7 @@ import './App.css';
 import Toolbar from './components/Toolbar/Toolbar';
 import SideDrawer from './components/SideDrawer/SideDrawer';
 import MainDivision from './components/MainDivision/MainDivision';
+import Footer from './components/Footer/Footer';
 class App extends Component {
   render(){
     return (
@@ -24,43 +25,44 @@ class App extends Component {
           <div className="top_row">
           <div className="row">
             <div className="column">
-                <MainDivision Title="Blog / Article" SubTitle="from" Number="500" Button="Order" Text="Typically 450-400 words, and e-book is perfect for your target audience ranging from prospective customers to users" />
+                <MainDivision className="main_division" Title="Blog / Article" SubTitle="from" Number="500" Button="Order" Text="Typically 450-400 words, and e-book is perfect for your target audience ranging from prospective customers to users" />
             </div>
             <div className="column">
-                <MainDivision Title="Newsletter / E-mailer" SubTitle="from" Number="1000" Button="Order" Text="Typically 450-400 words, and e-book is perfect for your target audience ranging from prospective customers to users" />
+                <MainDivision className="main_division" Title="Newsletter / E-mailer" SubTitle="from" Number="1000" Button="Order" Text="Typically 450-400 words, and e-book is perfect for your target audience ranging from prospective customers to users" />
             </div>
             <div className="column">
-                <MainDivision Title="Whitepaper" SubTitle="from" Number="2000" Button="Order" Text="Typically 450-400 words, and e-book is perfect for your target audience ranging from prospective customers to users" />
+                <MainDivision className="main_division" Title="Whitepaper" SubTitle="from" Number="2000" Button="Order" Text="Typically 450-400 words, and e-book is perfect for your target audience ranging from prospective customers to users" />
             </div>
           </div>
           <div className="row">
             <div className="column">
-                <MainDivision Title="e-book" SubTitle="from" Number="1000" Button="Order" Text="Typically 450-400 words, and e-book is perfect for your target audience ranging from prospective customers to users" />
+                <MainDivision className="main_division" Title="e-book" SubTitle="from" Number="1000" Button="Order" Text="Typically 450-400 words, and e-book is perfect for your target audience ranging from prospective customers to users" />
             </div>
             <div className="column">
-                <MainDivision Title="Report / Guide" SubTitle="from" Number="1000" Button="Order" Text="Typically 450-400 words, and e-book is perfect for your target audience ranging from prospective customers to users" />
+                <MainDivision className="main_division" Title="Report / Guide" SubTitle="from" Number="1000" Button="Order" Text="Typically 450-400 words, and e-book is perfect for your target audience ranging from prospective customers to users" />
             </div>
             <div className="column">
-                <MainDivision Title="Product Description" SubTitle="from" Number="500" Button="Order" Text="Typically 450-400 words, and e-book is perfect for your target audience ranging from prospective customers to users" />
+                <MainDivision className="main_division" Title="Product Description" SubTitle="from" Number="500" Button="Order" Text="Typically 450-400 words, and e-book is perfect for your target audience ranging from prospective customers to users" />
             </div>
           </div>
           <div className="row">
             <div className="column">
-                <MainDivision Title="Website Content" SubTitle="from" Number="1000" Button="Order" Text="Typically 450-400 words, and e-book is perfect for your target audience ranging from prospective customers to users" />
+                <MainDivision className="main_division" Title="Website Content" SubTitle="from" Number="1000" Button="Order" Text="Typically 450-400 words, and e-book is perfect for your target audience ranging from prospective customers to users" />
             </div>
             <div className="column">
-                <MainDivision Title="Video Script" SubTitle="from" Number="1000" Button="Order" Text="Typically 450-400 words, and e-book is perfect for your target audience ranging from prospective customers to users" />
+                <MainDivision className="main_division" Title="Video Script" SubTitle="from" Number="1000" Button="Order" Text="Typically 450-400 words, and e-book is perfect for your target audience ranging from prospective customers to users" />
             </div>
             <div className="column">
-                <MainDivision Title="Company Profile / Brochure" SubTitle="from" Number="2000" Button="Order" Text="Typically 450-400 words, and e-book is perfect for your target audience ranging from prospective customers to users" />
+                <MainDivision className="main_division" Title="Company Profile / Brochure" SubTitle="from" Number="2000" Button="Order" Text="Typically 450-400 words, and e-book is perfect for your target audience ranging from prospective customers to users" />
             </div>
           </div>
           <div className="row">
             <div className="column">
-                <MainDivision Title="Press Release" SubTitle="from" Number="2000" Button="Order" Text="Typically 450-400 words, and e-book is perfect for your target audience ranging from prospective customers to users" />
+                <MainDivision className="main_division" Title="Press Release" SubTitle="from" Number="2000" Button="Order" Text="Typically 450-400 words, and e-book is perfect for your target audience ranging from prospective customers to users" />
             </div>
           </div>
           </div>
+          <Footer/>
       </div>
       
     );

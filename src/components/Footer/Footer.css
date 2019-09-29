@@ -1,0 +1,29 @@
+.footer{
+	text-align: center;
+	color:rgb(128,128,128,0.9);
+}
+
+.footer ul{
+	list-style: none;
+	display: flex;
+	padding-left: 300px;
+}
+
+.footer li{
+	padding: 0.5rem; 
+}
+#list_space{
+	padding-right: 2.5rem;
+}
+#copy{
+	padding-left: 400px;
+}
+#rights{
+	padding-left: 500px;
+}
+#icons{
+	padding-left: 420px;
+}
+#last_row{
+	padding-bottom: 50px;
+}

@@ -36,6 +36,7 @@
 	margin: 0;
 	padding: 0;
 	display: flex;
+	padding-right: 210px;
 }
 
 .spacer{
@@ -43,12 +44,31 @@
 }
 
 .toolbar_navigation_items li{
-	padding: 0 0.5rem;
+	padding: 0.5rem;
+	color: #6e6e6e;
 }
 
 .toolbar_navigation_items a{
 	color: #6e6e6e;
 	text-decoration: none;
+}
+
+#notif{
+	width:40px;
+	height: 40px;
+}
+
+#button_icon{
+	background: rgb(136,204,0,0.7);
+	border:0;
+	width: 35px;
+	height:35px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0; 
+	color: white;
 }
 
 /*

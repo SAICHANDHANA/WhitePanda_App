@@ -8,6 +8,10 @@
 	width: 7%;
 	z-index: 10;
 }
+.movable_side ul{
+	list-style: none;
+	display: flex;
+}
 
 .side_drawer ul{
 	height: 100%;
@@ -22,6 +26,7 @@
 .side_drawer li{
 	margin: 0.5rem 0;
 	margin-bottom: 20px;
+	color: #6e6e6e;
 }
 
 .side_drawer a{
@@ -33,6 +38,10 @@
 .side_drawer a:hover,
 .side_drawer a:active {
 	color: #20B2AA;
+	border-right: 2px solid #20B2AA; 
+	padding-right: 0.7em;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 /*
 @media(min-width:769px) {
