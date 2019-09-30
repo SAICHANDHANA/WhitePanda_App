@@ -58,6 +58,28 @@
 	height: 40px;
 }
 
+.button_notif {
+  color: white;
+  display: inline-block; /* Inline elements with width and height. TL;DR they make the icon buttons stack from left-to-right instead of top-to-bottom */
+  position: relative; /* All 'absolute'ly positioned elements are relative to this one */
+  text-align: center;
+  padding: 1px 3px; /* Add some padding so it looks nice */
+}
+
+.button_badge {
+  background-color: #fa3e3e;
+  border-radius: 50%;
+  color: white; 
+  margin-top: 4px;
+  height: 20px;
+  width: 20px;
+  padding-top: 5px;
+  font-size: 10px;  
+  position: absolute; /* Position the badge within the relatively positioned button */
+  top: 0;
+  right: 0;
+}
+
 #button_icon{
 	background: rgb(136,204,0,0.7);
 	border:0;

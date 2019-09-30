@@ -10,7 +10,7 @@ class App extends Component {
       <div style={{height:'100%'}}>
         <Toolbar/>
         <SideDrawer/>
-        <div className="content_store">Content Store</div>
+        <div className="content_store ">Content Store</div>
           <div className="first_div">
             <p className="heading">
               Got bulk orders or almost similar orders? Fill the order brief in an excel sheet
